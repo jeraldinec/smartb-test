@@ -1,0 +1,82 @@
+.wh100 {
+  width: 100%;
+  height: 100%;
+}
+
+.details-button {
+  background-color: #ffd800;
+  border-radius: 40px;
+  padding: 10px 15px;
+  border: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #ffd800;
+  padding: 12px 17px;
+  font-size: 16px;
+}
+
+.styles_overlay__CLSq- {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.styles_modal__gNwvD {
+  width: 100%;
+  background-color: #111111;
+  padding: 0;
+}
+
+.containerModal {
+  padding: 10px 20px;
+}
+
+.containerModal .title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+.containerModal time {
+  color: #ffd800;
+  font-size: 1rem;
+}
+
+.containerModal .description {
+  color: #ccc;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.react-player__preview {
+  min-height: 300px;
+}
+
+.styles_closeButton__20ID4 {
+  cursor: pointer;
+}
+
+.styles_closeButton__20ID4:focus {
+  outline: none;
+}
+
+.styles_closeButton__20ID4 svg {
+  fill: #ffd800;
+}
+
+.player-wrapper {
+  position: relative;
+}
+
+@media (max-width: 440px) {
+  .details-button {
+    font-size: 13px;
+    padding: 8px 13px;
+  }
+  .details-button:hover {
+    font-size: 14px;
+  }
+}
